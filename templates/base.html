@@ -60,11 +60,11 @@
             function initMenu(){
                 var menu = document.getElementById("menu");
                 var menulink = document.getElementById("menu-link");
-                menulink.addEventListener("click", function toggleMenu(){
-                        window.event.preventDefault();
-                        menulink.classList.toggle('active');
-                        menu.classList.toggle('active');              
-                    });
+                menulink.addEventListener("click", function toggleMenu(event){
+                    event.preventDefault();
+                    menulink.classList.toggle('active');
+                    menu.classList.toggle('active');
+                });
             };
         </script>
         {% endblock head %}

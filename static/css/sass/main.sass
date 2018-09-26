@@ -198,29 +198,30 @@ footer
       /* 18/16 = 1.125 */
       font-weight: 300
       p
-        padding-bottom: 1.5em
+        margin-top: 1.5em
+        margin-bottom: 1.5em
       /* article headers */
       h2
         font-size: 1.4em
-        padding-bottom: .75em
-        padding-top: 1.5em
+        margin-bottom: .75em
+        margin-top: 1.5em
         font-weight: 900        
       h3
         font-size: 1.2em
-        padding-bottom: .75em
-        padding-top: 1.5em
+        margin-bottom: .75em
+        margin-top: 1.5em
         font-weight: 900
       h4
         font-size: 1em
-        padding-bottom: 1.25em
-        padding-top: 1em
+        margin-bottom: 1.25em
+        margin-top: 1em
         font-weight: 900
       /* article lists */
       ul, ol
         width: 85%
         margin: 0 auto
         line-height: 2
-        padding-bottom: 2em
+        margin-bottom: 2em
       ul
         list-style-type: square
       ol
@@ -228,13 +229,13 @@ footer
       /* italics */
       em
         font-style: italic
-        font-size: .8em
+        /*font-size: .8em*/
       /* code blocks */
       .highlight
         margin-bottom: 1.5em
       pre
-        padding-bottom: 1.75em
-        padding-top: 1em
+        margin-bottom: 1.75em
+        margin-top: 1em
         display: block
         background-color: #f5f5f5
         border: 1px solid rgba(0, 0, 0, 0.15)
@@ -245,6 +246,11 @@ footer
         white-space: -pre-wrap
         white-space: -o-pre-wrap
         word-wrap: break-word
+      table
+        margin: 1.5em auto
+      td, th
+        padding: 0.1em 0.25em
+        border-spacing: 0.1em 0.25em
 
       span.nv
         color: #c65d09
@@ -258,6 +264,7 @@ footer
         margin-bottom: 2em
 
 .back-to-top
+  display: none
   padding-top: 2em
   text-align: center
   margin-bottom: 6em
